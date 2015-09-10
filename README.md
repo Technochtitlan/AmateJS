@@ -1,5 +1,5 @@
 # AmateJS
-Renderer Agnostic Drawing API
+An abstraction for HTML5 canvas, which offers support for basic shapes and basic interaction.
 
 ## Resources
 - AmateJS website
