@@ -10,24 +10,24 @@
 
 var gulp = require("gulp");
 var gutil = require("gulp-util");
-//var wrench = require("wrench");
+var wrench = require("wrench");
 
-///**
-// *  This will load all js or coffee files in the gulp directory
-// *  in order to load all gulp tasks
-// */
-//wrench.readdirSyncRecursive("./gulp").filter(function (file) {
-//  return (/\.(js|coffee)$/i).test(file);
-//}).map(function (file) {
-//  require("./gulp/" + file);
-//});
+/**
+ *  This will load all js files in the gulp directory
+ *  in order to load all gulp tasks
+ */
+wrench.readdirSyncRecursive("./tasks").filter(function (file) {
+  return (/\.(js)$/i).test(file);
+}).map(function (file) {
+  require("./tasks/" + file);
+});
 
 
 /**
- *  Default task clean temporaries directories and launch the
- *  main optimization build task
+ *  Default task serves for development
  */
+//gulp.task("default", ["serve"]);
+// TODO: remove me!
 gulp.task("default", [], function () {
-  //gulp.start("serve");
   gutil.log("Allo' Allo' World!");
 });

@@ -22,8 +22,6 @@
     "viz"
   ],
   "devDependencies": {
-    "browser-sync": "^2.9.3",
-    "browser-sync-spa": "^1.0.2",
     "eslint": "^1.4.1",
     "groc": "^0.8.0",
     "gulp": "^3.9.0",
@@ -32,7 +30,6 @@
     "gulp-util": "^3.0.6",
     "karma": "^0.13.9",
     "karma-coverage": "^0.5.2",
-    "wiredep": "^2.2.2",
     "wrench": "^1.5.8"
   }
 }
