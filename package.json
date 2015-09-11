@@ -2,13 +2,15 @@
   "name": "amatejs",
   "version": "0.0.1",
   "description": "A HTML5 canvas abstraction",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "author": "David Bautista - dbautistav",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/Technochtitlan/AmateJS#readme",
   "repository": {
     "type": "git",
     "url": "git@github.com:Technochtitlan/AmateJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Technochtitlan/AmateJS/issues"
   },
   "keywords": [
     "canvas",
@@ -19,12 +21,6 @@
     "visualizations",
     "graphics"
   ],
-  "author": "David Bautista - dbautistav",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/Technochtitlan/AmateJS/issues"
-  },
-  "homepage": "https://github.com/Technochtitlan/AmateJS#readme",
   "devDependencies": {
     "gulp": "^3.9.0"
   }

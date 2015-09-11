@@ -1,7 +1,5 @@
 var gulp = require('gulp');
 
 gulp.task('default', function() {
-  // place code for your default task here
-  // Allo' Allo' World!
+    console.log("Allo' Allo' World!");
 });
-
