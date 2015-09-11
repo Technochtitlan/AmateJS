@@ -13,15 +13,21 @@
     "url": "https://github.com/Technochtitlan/AmateJS/issues"
   },
   "keywords": [
-    "canvas",
     "api",
-    "html5",
-    "viz",
+    "canvas",
     "data-driven",
+    "graphics",
+    "html5",
     "visualizations",
-    "graphics"
+    "viz"
   ],
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "groc": "^0.8.0",
+    "gulp": "^3.9.0",
+    "gulp-groc": "^0.4.1",
+    "gulp-uglify": "^1.4.1",
+    "karma": "^0.13.9",
+    "karma-coverage": "^0.5.2",
+    "wrench": "^1.5.8"
   }
 }
