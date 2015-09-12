@@ -8,8 +8,9 @@ _TODO_
 - [AmateJS documentation](https://technochtitlan.github.io/AmateJS) _(under construction)_.
 - [AmateJS wiki](https://github.com/Technochtitlan/AmateJS/wiki).
 
-## Issues and feature requests
-Help us reporting bugs creating a [new issue](https://github.com/Technochtitlan/AmateJS/issues/new), and if you have a feature request first look for it among [existing issues](https://github.com/Technochtitlan/AmateJS/issues) with feature-request label and comment/vote otherwise create it. Thanks in advance!
+## Contributing
+**Important**: GitHub issues are for bug reports and feature requests only. 
+Please use StackOverflow for general help.
 
 ## Changelog
 Check [changelog](https://github.com/Technochtitlan/AmateJS/blob/master/CHANGELOG.md) for details.

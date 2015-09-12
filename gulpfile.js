@@ -22,11 +22,10 @@ wrench.readdirSyncRecursive("./tasks").filter(function (file) {
   require("./tasks/" + file);
 });
 
-
 /**
  *  Default task serves for development
  */
-//gulp.task("default", ["serve"]);
+//gulp.task("default", ["serve"]);   // TODO: un-comment me!
 // TODO: remove me!
 gulp.task("default", [], function () {
   gutil.log("Allo' Allo' World!");
