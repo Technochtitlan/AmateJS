@@ -9,7 +9,6 @@
 "use strict";
 
 var gulp = require("gulp");
-var gutil = require("gulp-util");
 var wrench = require("wrench");
 
 /**
@@ -25,8 +24,4 @@ wrench.readdirSyncRecursive("./tasks").filter(function (file) {
 /**
  *  Default task serves for development
  */
-//gulp.task("default", ["serve"]);   // TODO: un-comment me!
-// TODO: remove me!
-gulp.task("default", [], function () {
-  gutil.log("Allo' Allo' World!");
-});
+gulp.task("default", ["serve"]);
