@@ -22,14 +22,16 @@
     "viz"
   ],
   "devDependencies": {
+    "del": "^2.0.2",
     "eslint": "^1.4.1",
-    "groc": "^0.8.0",
+    "grock": "https://registry.npmjs.org/grock/-/grock-0.3.8.tgz",
     "gulp": "^3.9.0",
-    "gulp-groc": "^0.4.1",
     "gulp-uglify": "^1.4.1",
     "gulp-util": "^3.0.6",
+    "jasmine-core": "^2.3.4",
     "karma": "^0.13.9",
     "karma-coverage": "^0.5.2",
+    "karma-jasmine": "^0.3.6",
     "wrench": "^1.5.8"
   }
 }
